@@ -3,7 +3,6 @@
 /*
  * befor main 
  */
-
 int main(void)
 {
   /*
