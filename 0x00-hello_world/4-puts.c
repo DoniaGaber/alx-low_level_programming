@@ -1,5 +1,7 @@
 #include <stdio.h>
-
+/*
+ * befor main 
+ */
 int main(void)
 {
   /*
