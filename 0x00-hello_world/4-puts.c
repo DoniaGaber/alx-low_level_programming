@@ -5,7 +5,6 @@
 int main(void)
 {
   /*
-
    *main fun
  */
   puts("\"Programming is like building a multilingual puzzle");
