@@ -1,38 +1,35 @@
+#include <stdlib.h>
 #include <stdio.h>
+/* Program prints all possible different combinations of three digits */
 
 /**
- ** main - print all possible combination of two-digit numbers
- **
- ** Return: Always 0 (success)
- **/
-
+ * main - prints out all possible combos of 3 digits
+ * Return: 0
+ */
 int main(void)
 {
-int i = 0;
-int j = 1;
-while (i <= 98)
-{
-while (j <= 99)
-{
-putchar((i / 10) + '0');
-putchar((i % 10) + '0');
-putchar(' ');
-putchar((j / 10) + '0');
-putchar((j % 10) + '0');
-if (i == 98 && j == 99)
-{
-putchar('\n');
-break;
-}
-else
-{
-putchar(',');
-putchar(' ');
-}
-j++;
-}
-i++;
-j = i + 1;
-}
-return (0);
+	int i, j, k;
+
+	/* for loop */
+	for (i = 0; i < 8; i++)
+	{
+		for (j = i + 1; j < 9; j++)
+		{
+			for (k = j + 1; k < 10; k++)
+			{
+				putchar((i % 10) + '0');
+				putchar((j % 10) + '0');
+				putchar((k % 10) + '0');
+
+				if (i == 7 && j == 8 && k == 9)
+				{
+					continue;
+				}
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
