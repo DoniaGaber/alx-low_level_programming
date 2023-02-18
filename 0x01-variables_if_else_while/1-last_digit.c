@@ -1,1 +1,35 @@
-tash 
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/* program assign a random number to variable n each time it executed */
+
+/**
+ * main - prints the last digit of n and prints out whether it is
+ * greater than 5, 0, or less than 6
+ * Return: 0
+ */
+int main(void)
+{
+	int n;
+	int lsD;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+
+	lsD = n % 10;
+
+	printf("Last digit of %i is %i and is ", n, lsD);
+
+	/* if statement*/
+	if (lsD > 5)
+	{
+		printf("greater than 5\n");
+	} else if (lsD == 0)
+	{
+		printf("0\n");
+	} else
+	{
+		printf("less than 6 and not 0\n");
+	}
+	return (0);
+}
