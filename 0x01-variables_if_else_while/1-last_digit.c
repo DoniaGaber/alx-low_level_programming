@@ -4,8 +4,11 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
-/*fun main check the last gdigit of the num n  .*/
+/* betty style doc for function main goes there 
+ * main - prints the last digit of n and prints out whether it is
+ * greater than 5, 0, or less than 6
+ * Return: 0
+ */
 int main(void)
 {
 int n, x;
