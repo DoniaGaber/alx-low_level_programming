@@ -1,32 +1,33 @@
 #include <stdlib.h>
 #include <stdio.h>
-/* Program prints all possible different combinations of three digits */
+/* Program prints all possible combinations of two two-digit numbers */
 
 /**
- * main - prints out all possible combos of 3 digits
+ * main - create 2 pairs of numbers that do not repeat
  * Return: 0
  */
 int main(void)
 {
-	int i, j, k;
+	int j, i;
 
 	/* for loop */
-	for (i = 0; i < 8; i++)
+	for (j = 0; j <= 99; j++)
 	{
-		for (j = i + 1; j < 9; j++)
+		for (i = j; i <= 99; i++)
 		{
-			for (k = j + 1; k < 10; k++)
+			if (i != j)
 			{
-				putchar((i % 10) + '0');
-				putchar((j % 10) + '0');
-				putchar((k % 10) + '0');
-
-				if (i == 7 && j == 8 && k == 9)
-				{
-					continue;
-				}
-				putchar(',');
+				putchar(j / 10 + 48);
+				putchar(j % 10 + 48);
 				putchar(' ');
+				putchar(i / 10 + 48);
+				putchar(i % 10 + 48);
+
+				if (j * 100 + i != 9899)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
