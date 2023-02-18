@@ -13,16 +13,16 @@ int main(void)
 	for (b = 'a'; b <= 'z'; b++)
 	{
 		if (c == 'q' || c == 'e')
-{
-c++;
-continue;
-}
-else
-{
-putchar(c);
-c++;
-}
-}
+        {
+            c++;
+            continue;
+        }
+        else
+        {
+            putchar(c);
+            c++;
+        }
+    }
 putchar('\n');;
 	return (0);
 }
