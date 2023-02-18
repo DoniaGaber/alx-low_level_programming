@@ -4,7 +4,9 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/* betty style doc for function main goes there
+* fun main check the last gdigit of the num n  .
+*/
 int main(void)
 {
 int n, x;
