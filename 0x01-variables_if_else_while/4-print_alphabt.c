@@ -12,17 +12,11 @@ int main(void)
 	/* for loop */
 	for (b = 'a'; b <= 'z'; b++)
 	{
-		if (c == 'q' || c == 'e')
-        {
-            c++;
-            continue;
-        }
-        else
-        {
-            putchar(c);
-            c++;
-        }
-    }
-putchar('\n');;
+		if (b != 'q' && b != 'e')
+		{
+			putchar(b);
+		}
+	}
+	putchar('\n');
 	return (0);
 }
