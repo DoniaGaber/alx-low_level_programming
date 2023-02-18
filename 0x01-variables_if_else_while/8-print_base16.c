@@ -8,15 +8,16 @@
  */
 int main(void)
 {
-  /*for loop */
+  /*while loop */
   int x = '0';
     while (x <= '9')
     {
         putchar(x);
         x++;
     }
-  for( char j = 'a'; j <= 'f'; j++){
-    putchar(j);
+	/* for loop */
+  for( x = 'a'; x <= 'f'; x++){
+    putchar(x);
   }
   putchar('\n');
 	return (0);
