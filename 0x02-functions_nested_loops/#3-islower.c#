@@ -348,4 +348,114 @@
 																								  Sorry, something went wrong.
 																								          </p>
 																								        </include-fragment>
-																								    <span class="sentinel" tabindex="0" aria-hidden="true"></span><span class="sentin
+																								    <span class="sentinel" tabindex="0" aria-hidden="true"></span><span class="sentinel" tabindex="0" aria-hidden="true"></span><span class="sentinel" tabindex="0" aria-hidden="true"></span><span class="sentinel" tabindex="0" aria-hidden="true"></span></details-menu>
+																								  </details>
+
+																								      </div>
+																								  </header>
+
+
+																								      </div>
+
+																								    <div id="start-of-content" class="show-on-focus"></div>
+
+
+
+
+
+
+
+																								      <div id="js-flash-container" data-turbo-replace="">
+
+
+
+
+
+																								    <template class="js-flash-template">
+
+																								  <div class="flash flash-full   {{ className }}">
+																								    <div class="px-2">
+																								      <button autofocus="" class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+																								        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+																								      <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+																								  </svg>
+																								      </button>
+																								      <div aria-atomic="true" role="alert" class="js-flash-alert">
+
+																								  <div>{{ message }}</div>
+
+																								      </div>
+																								    </div>
+																								  </div>
+																								    </template>
+																								  </div>
+
+
+
+																								      <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
+
+
+
+
+
+																								        <details class="details-reset details-overlay details-overlay-dark js-command-palette-dialog" id="command-palette-pjax-container" data-turbo-replace="">
+																								    <summary aria-label="command palette trigger" tabindex="-1" role="button"></summary>
+																								    <details-dialog class="command-palette-details-dialog d-flex flex-column flex-justify-center height-fit" aria-label="command palette" role="dialog" aria-modal="true">
+																								      <command-palette class="command-palette color-bg-default rounded-3 border color-shadow-small" return-to="/NadaAbdelnasser/alx-low_level_programming/blob/main/0x02-functions_nested_loops/3-islower.c" user-id="83475995" activation-hotkey="Mod+k,Mod+Alt+k" command-mode-hotkey="Mod+Shift+k" data-action="
+        command-palette-input-ready:command-palette#inputReady
+        command-palette-page-stack-updated:command-palette#updateInputScope
+        itemsUpdated:command-palette#itemsUpdated
+        keydown:command-palette#onKeydown
+        loadingStateChanged:command-palette#loadingStateChanged
+        selectedItemChanged:command-palette#selectedItemChanged
+        pageFetchError:command-palette#pageFetchError
+      " data-catalyst="">
+
+																								          <command-palette-mode data-char="#" data-scope-types="[&quot;&quot;]" data-placeholder="Search issues and pull requests" data-catalyst=""></command-palette-mode>
+																								          <command-palette-mode data-char="#" data-scope-types="[&quot;owner&quot;,&quot;repository&quot;]" data-placeholder="Search issues, pull requests, discussions, and projects" data-catalyst=""></command-palette-mode>
+																								          <command-palette-mode data-char="!" data-scope-types="[&quot;owner&quot;,&quot;repository&quot;]" data-placeholder="Search projects" data-catalyst=""></command-palette-mode>
+																								          <command-palette-mode data-char="@" data-scope-types="[&quot;&quot;]" data-placeholder="Search or jump to a user, organization, or repository" data-catalyst=""></command-palette-mode>
+																								          <command-palette-mode data-char="@" data-scope-types="[&quot;owner&quot;]" data-placeholder="Search or jump to a repository" data-catalyst=""></command-palette-mode>
+																								          <command-palette-mode data-char="/" data-scope-types="[&quot;repository&quot;]" data-placeholder="Search files" data-catalyst=""></command-palette-mode>
+																								          <command-palette-mode data-char="?" data-placeholder="" data-catalyst="" data-scope-types=""></command-palette-mode>
+																								          <command-palette-mode data-char=">" data-placeholder="Run a command" data-scope-types="" data-catalyst=""></command-palette-mode>
+																								          <command-palette-mode data-char="" data-scope-types="[&quot;&quot;]" data-placeholder="Search or jump to..." data-catalyst=""></command-palette-mode>
+																								          <command-palette-mode data-char="" data-scope-types="[&quot;owner&quot;]" data-placeholder="Search or jump to..." data-catalyst=""></command-palette-mode>
+																								        <command-palette-mode class="js-command-palette-default-mode" data-char="" data-placeholder="Search or jump to..." data-scope-types="" data-catalyst=""></command-palette-mode>
+
+																								        <command-palette-input placeholder="Search or jump to..." data-action="
+          command-palette-input:command-palette#onInput
+          command-palette-select:command-palette#onSelect
+          command-palette-descope:command-palette#onDescope
+          command-palette-cleared:command-palette#onInputClear
+        " data-catalyst="" class="d-flex flex-items-center flex-nowrap py-1 pl-3 pr-2 border-bottom">
+																								          <div class="js-search-icon d-flex flex-items-center mr-2" style="height: 26px">
+																								            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-search color-fg-muted">
+																								      <path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path>
+																								  </svg>
+																								          </div>
+																								          <div class="js-spinner d-flex flex-items-center mr-2 color-fg-muted" hidden="">
+																								            <svg aria-label="Loading" class="anim-rotate" viewBox="0 0 16 16" fill="none" width="16" height="16">
+																								              <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke"></circle>
+																								              <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke"></path>
+																								            </svg>
+																								          </div>
+																								          <command-palette-scope data-catalyst="" class="d-inline-flex">
+																								  <div data-target="command-palette-scope.placeholder" hidden="" class="color-fg-subtle">/&nbsp;&nbsp;<span class="text-semibold color-fg-default">...</span>&nbsp;&nbsp;/&nbsp;&nbsp;</div>
+																								  <command-palette-token data-text="NadaAbdelnasser" data-id="U_kgDOBh7GAw" data-type="owner" data-value="NadaAbdelnasser" data-targets="command-palette-scope.tokens" class="color-fg-default text-semibold" style="white-space:nowrap;line-height:20px;" id="" data-catalyst="">NadaAbdelnasser<span class="color-fg-subtle text-normal">&nbsp;&nbsp;/&nbsp;&nbsp;</span></command-palette-token>
+																								  <command-palette-token data-text="alx-low_level_programming" data-id="R_kgDOI-qdng" data-type="repository" data-value="alx-low_level_programming" data-targets="command-palette-scope.tokens" class="color-fg-default text-semibold" style="white-space:nowrap;line-height:20px;" id="" data-catalyst="">alx-low_level_pro...<span class="color-fg-subtle text-normal">&nbsp;&nbsp;/&nbsp;&nbsp;</span></command-palette-token>
+																								          </command-palette-scope>
+																								          <div class="command-palette-input-group flex-1 form-control border-0 box-shadow-none" style="z-index: 0">
+																																																																							                <div class="command-palette-typeahead position-absolute d-flex flex-items-center Truncate">
+																																																																							                  <span class="typeahead-segment input-mirror" data-target="command-palette-input.mirror"></span>
+																																																																							                  <span class="Truncate-text" data-target="command-palette-input.typeaheadText"></span>
+																																																																							                  <span class="typeahead-segment" data-target="command-palette-input.typeaheadPlaceholder"></span>
+																																																																							                </div>
+																																																																							                <input class="js-overlay-input typeahead-input d-none" disabled="" tabindex="-1" aria-label="Hidden input for typeahead">
+																																																																							                <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="js-input typeahead-input form-control border-0 box-shadow-none input-block width-full no-focus-indicator" aria-label="Command palette input" aria-haspopup="listbox" aria-expanded="false" aria-autocomplete="list" aria-controls="command-palette-page-stack" role="combobox" data-action="
+              input:command-palette-input#onInput
+              keydown:command-palette-input#onKeydown
+            " placeholder="Search or jump to...">
+																																																																							              </div>
+																																																																							                <div data-view-component="true" class="position-relative d-inline-block">
+																																																																							          <button ar
