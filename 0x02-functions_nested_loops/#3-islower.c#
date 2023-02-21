@@ -458,4 +458,56 @@
             " placeholder="Search or jump to...">
 																																																																							              </div>
 																																																																							                <div data-view-component="true" class="position-relative d-inline-block">
-																																																																							          <button ar
+																																																																							          <button aria-keyshortcuts="Control+Backspace" data-action="click:command-palette-input#onClear keypress:command-palette-input#onClear" data-target="command-palette-input.clearButton" id="command-palette-clear-button" hidden="hidden" type="button" data-view-component="true" class="btn-octicon command-palette-input-clear-button" aria-labelledby="tooltip-fa7955f8-a237-4c84-8641-f25cc52e19a1">      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x-circle-fill">
+																																																																							          <path fill-rule="evenodd" d="M2.343 13.657A8 8 0 1113.657 2.343 8 8 0 012.343 13.657zM6.03 4.97a.75.75 0 00-1.06 1.06L6.94 8 4.97 9.97a.75.75 0 101.06 1.06L8 9.06l1.97 1.97a.75.75 0 101.06-1.06L9.06 8l1.97-1.97a.75.75 0 10-1.06-1.06L8 6.94 6.03 4.97z"></path>
+																																																																							      </svg>
+																																																																							      </button>    <tool-tip id="tooltip-fa7955f8-a237-4c84-8641-f25cc52e19a1" for="command-palette-clear-button" data-direction="w" data-type="label" data-view-component="true" class="sr-only position-absolute" aria-hidden="true" role="tooltip">Clear Command Palette</tool-tip>
+																																																																							      </div>
+																																																																							            </command-palette-input>
+
+																																																																							            <command-palette-page-stack data-default-scope-id="R_kgDOI-qdng" data-default-scope-type="Repository" data-action="command-palette-page-octicons-cached:command-palette-page-stack#cacheOcticons" data-current-mode="" data-catalyst="" data-target="command-palette.pageStack" data-current-query-text="">
+																																																																							                <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-scope-types="[&quot;&quot;,&quot;owner&quot;,&quot;repository&quot;]" data-mode="" data-value="" data-match-mode="" data-catalyst="" hidden="">
+																																																																							                  <div class="d-flex flex-items-start flex-justify-between">
+																																																																							                    <div>
+																																																																							      <span class="text-bold">Tip:</span>
+																																																																							                        Type <kbd class="hx_kbd">#</kbd> to search pull requests
+																																																																							                    </div>
+																																																																							                    <div class="ml-2 flex-shrink-0">
+																																																																							                      Type <kbd class="hx_kbd">?</kbd> for help and tips
+																																																																							                    </div>
+																																																																							                  </div>
+																																																																							                </command-palette-tip>
+																																																																							                <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-scope-types="[&quot;&quot;,&quot;owner&quot;,&quot;repository&quot;]" data-mode="" data-value="" data-match-mode="" data-catalyst="" hidden="">
+																																																																							                  <div class="d-flex flex-items-start flex-justify-between">
+																																																																							                    <div>
+																																																																							      <span class="text-bold">Tip:</span>
+																																																																							                        Type <kbd class="hx_kbd">#</kbd> to search issues
+																																																																							                    </div>
+																																																																							                    <div class="ml-2 flex-shrink-0">
+																																																																							                      Type <kbd class="hx_kbd">?</kbd> for help and tips
+																																																																							                    </div>
+																																																																							                  </div>
+																																																																							                </command-palette-tip>
+																																																																							                <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-scope-types="[&quot;owner&quot;,&quot;repository&quot;]" data-mode="" data-value="" data-match-mode="" data-catalyst="" hidden="">
+																																																																							                  <div class="d-flex flex-items-start flex-justify-between">
+																																																																							                    <div>
+																																																																							      <span class="text-bold">Tip:</span>
+																																																																							                        Type <kbd class="hx_kbd">#</kbd> to search discussions
+																																																																							                    </div>
+																																																																							                    <div class="ml-2 flex-shrink-0">
+																																																																							                      Type <kbd class="hx_kbd">?</kbd> for help and tips
+																																																																							                    </div>
+																																																																							                  </div>
+																																																																							                </command-palette-tip>
+																																																																							                <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-scope-types="[&quot;owner&quot;,&quot;repository&quot;]" data-mode="" data-value="" data-match-mode="" data-catalyst="" hidden="">
+																																																																							                  <div class="d-flex flex-items-start flex-justify-between">
+																																																																							                    <div>
+																																																																							      <span class="text-bold">Tip:</span>
+																																																																							                        Type <kbd class="hx_kbd">!</kbd> to search projects
+																																																																							                    </div>
+																																																																							                    <div class="ml-2 flex-shrink-0">
+																																																																							                      Type <kbd class="hx_kbd">?</kbd> for help and tips
+																																																																							                    </div>
+																																																																							                  </div>
+																																																																							                </command-palette-tip>
+																																																																							                <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-scope-types="[&quot;owner&quot;]" data-mode=""
