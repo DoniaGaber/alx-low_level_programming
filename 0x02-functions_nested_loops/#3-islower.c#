@@ -510,4 +510,75 @@
 																																																																							                    </div>
 																																																																							                  </div>
 																																																																							                </command-palette-tip>
-																																																																							                <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-scope-types="[&quot;owner&quot;]" data-mode=""
+																																																																							                <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-scope-types="[&quot;owner&quot;]" data-mode="" data-value="" data-match-mode="" data-catalyst="" hidden="">
+																																																																							                  <div class="d-flex flex-items-start flex-justify-between">
+																																																																							                    <div>
+																																																																							      <span class="text-bold">Tip:</span>
+																																																																							                        Type <kbd class="hx_kbd">@</kbd> to search teams
+																																																																							                    </div>
+																																																																							                    <div class="ml-2 flex-shrink-0">
+																																																																							                      Type <kbd class="hx_kbd">?</kbd> for help and tips
+																																																																							                    </div>
+																																																																							                  </div>
+																																																																							                </command-palette-tip>
+																																																																							                <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-scope-types="[&quot;&quot;]" data-mode="" data-value="" data-match-mode="" data-catalyst="" hidden="">
+																																																																							                  <div class="d-flex flex-items-start flex-justify-between">
+																																																																							                    <div>
+																																																																							      <span class="text-bold">Tip:</span>
+																																																																							                        Type <kbd class="hx_kbd">@</kbd> to search people and organizations
+																																																																							                    </div>
+																																																																							                    <div class="ml-2 flex-shrink-0">
+																																																																							                      Type <kbd class="hx_kbd">?</kbd> for help and tips
+																																																																							                    </div>
+																																																																							                  </div>
+																																																																							                </command-palette-tip>
+																																																																							                <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-scope-types="[&quot;&quot;,&quot;owner&quot;,&quot;repository&quot;]" data-mode="" data-value="" data-match-mode="" data-catalyst="" hidden="">
+																																																																							                  <div class="d-flex flex-items-start flex-justify-between">
+																																																																							                    <div>
+																																																																							      <span class="text-bold">Tip:</span>
+																																																																							      Type <kbd class="hx_kbd">&gt;</kbd> to activate command mode
+																																																																							                    </div>
+																																																																							                    <div class="ml-2 flex-shrink-0">
+																																																																							                      Type <kbd class="hx_kbd">?</kbd> for help and tips
+																																																																							                    </div>
+																																																																							                  </div>
+																																																																							                </command-palette-tip>
+																																																																							                <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-scope-types="[&quot;&quot;,&quot;owner&quot;,&quot;repository&quot;]" data-mode="" data-value="" data-match-mode="" data-catalyst="" hidden="">
+																																																																							                  <div class="d-flex flex-items-start flex-justify-between">
+																																																																							                    <div>
+																																																																							      <span class="text-bold">Tip:</span>
+																																																																							                        Go to your accessibility settings to change your keyboard shortcuts
+																																																																							                    </div>
+																																																																							                    <div class="ml-2 flex-shrink-0">
+																																																																							                      Type <kbd class="hx_kbd">?</kbd> for help and tips
+																																																																							                    </div>
+																																																																							                  </div>
+																																																																							                </command-palette-tip>
+																																																																							                <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-scope-types="[&quot;&quot;,&quot;owner&quot;,&quot;repository&quot;]" data-mode="#" data-value="" data-match-mode="" data-catalyst="" hidden="">
+																																																																							                  <div class="d-flex flex-items-start flex-justify-between">
+																																																																							                    <div>
+																																																																							      <span class="text-bold">Tip:</span>
+																																																																							      Type author:@me to search your content
+																																																																							                    </div>
+																																																																							                    <div class="ml-2 flex-shrink-0">
+																																																																							                      Type <kbd class="hx_kbd">?</kbd> for help and tips
+																																																																							                    </div>
+																																																																							                  </div>
+																																																																							                </command-palette-tip>
+																																																																							                <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-scope-types="[&quot;&quot;,&quot;owner&quot;,&quot;repository&quot;]" data-mode="#" data-value="" data-match-mode="" data-catalyst="" hidden="">
+																																																																							                  <div class="d-flex flex-items-start flex-justify-between">
+																																																																							                    <div>
+																																																																							      <span class="text-bold">Tip:</span>
+																																																																							      Type is:pr to filter to pull requests
+																																																																							                    </div>
+																																																																							                    <div class="ml-2 flex-shrink-0">
+																																																																							                      Type <kbd class="hx_kbd">?</kbd> for help and tips
+																																																																							                    </div>
+																																																																							                  </div>
+																																																																							                </command-palette-tip>
+																																																																							                <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-scope-types="[&quot;&quot;,&quot;owner&quot;,&quot;repository&quot;]" data-mode="#" data-value="" data-match-mode="" data-catalyst="" hidden="">
+																																																																							                  <div class="d-flex flex-items-start flex-justify-between">
+																																																																							                    <div>
+																																																																							      <span class="text-bold">Tip:</span>
+																																																																							      Type is:issue to filter to issues
+																																																																							                   
