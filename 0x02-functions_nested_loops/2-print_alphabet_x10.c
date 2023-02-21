@@ -4,8 +4,8 @@
  */
 void print_alphabet(void)
 {
-int t= 10;
-while(t--){
+int t= 0;
+while(t++ <= 9){
 char letter;
 for (letter = 'a'; letter <= 'z'; letter++)
 _putchar(letter);
