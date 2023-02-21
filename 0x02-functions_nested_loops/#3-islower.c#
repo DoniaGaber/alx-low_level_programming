@@ -581,4 +581,55 @@
 																																																																							                    <div>
 																																																																							      <span class="text-bold">Tip:</span>
 																																																																							      Type is:issue to filter to issues
-																																																																							                   
+																																																																							                    </div>
+																																																																							                    <div class="ml-2 flex-shrink-0">
+																																																																							                      Type <kbd class="hx_kbd">?</kbd> for help and tips
+																																																																							                    </div>
+																																																																							                  </div>
+																																																																							                </command-palette-tip>
+																																																																							                <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-scope-types="[&quot;owner&quot;,&quot;repository&quot;]" data-mode="#" data-value="" data-match-mode="" data-catalyst="" hidden="">
+																																																																							                  <div class="d-flex flex-items-start flex-justify-between">
+																																																																							                    <div>
+																																																																							      <span class="text-bold">Tip:</span>
+																																																																							      Type is:project to filter to projects
+																																																																							                    </div>
+																																																																							                    <div class="ml-2 flex-shrink-0">
+																																																																							                      Type <kbd class="hx_kbd">?</kbd> for help and tips
+																																																																							                    </div>
+																																																																							                  </div>
+																																																																							                </command-palette-tip>
+																																																																							                <command-palette-tip class="color-fg-muted f6 px-3 py-1 my-2" data-scope-types="[&quot;&quot;,&quot;owner&quot;,&quot;repository&quot;]" data-mode="#" data-value="" data-match-mode="" data-catalyst="" hidden="">
+																																																																							                  <div class="d-flex flex-items-start flex-justify-between">
+																																																																							                    <div>
+																																																																							      <span class="text-bold">Tip:</span>
+																																																																							      Type is:open to filter to open content
+																																																																							                    </div>
+																																																																							                    <div class="ml-2 flex-shrink-0">
+																																																																							                      Type <kbd class="hx_kbd">?</kbd> for help and tips
+																																																																							                    </div>
+																																																																							                  </div>
+																																																																							                </command-palette-tip>
+																																																																							              <command-palette-tip class="mx-3 my-2 flash flash-error d-flex flex-items-center" data-scope-types="*" data-on-error="" data-mode="*" data-catalyst="" hidden="" data-match-mode="" data-value="*">
+																																																																							                <div>
+																																																																							                  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+																																																																							          <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+																																																																							      </svg>
+																																																																							                </div>
+																																																																							                <div class="px-2">
+																																																																							                  We’ve encountered an error and some results aren't available at this time. Type a new search or try again later.
+																																																																							                </div>
+																																																																							              </command-palette-tip>
+																																																																							              <command-palette-tip class="h4 color-fg-default pl-3 pb-2 pt-3" data-on-empty="" data-scope-types="*" data-match-mode="[^?]|^$" data-mode="*" data-catalyst="" hidden="" data-value="*">
+																																																																							                No results matched your search
+																																																																							              </command-palette-tip>
+
+																																																																							              <div hidden="">
+
+																																																																							                  <div data-targets="command-palette-page-stack.localOcticons" data-octicon-id="arrow-right-color-fg-muted">
+																																																																							                    <svg height="16" class="octicon octicon-arrow-right color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 2.97a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06l2.97-2.97H3.75a.75.75 0 010-1.5h7.44L8.22 4.03a.75.75 0 010-1.06z"></path></svg>
+																																																																							                  </div>
+																																																																							                  <div data-targets="command-palette-page-stack.localOcticons" data-octicon-id="arrow-right-color-fg-default">
+																																																																							                    <svg height="16" class="octicon octicon-arrow-right color-fg-default" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 2.97a.75.75 0 011.06 0l4.25 4.25a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06-1.06l2.97-2.97H3.75a.75.75 0 010-1.5h7.44L8.22 4.03a.75.75 0 010-1.06z"></path></svg>
+																																																																							                  </div>
+																																																																							                  <div data-targets="command-palette-page-stack.localOcticons" data-octicon-id="codespaces-color-fg-muted">
+																																																																							                    <svg height="16" class="octicon octicon-codespaces color-fg-muted" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 1.75C2 .784 2.784 0 3.75 0h8.5C13.216 0 14 .784 14 1.75v5a1.75 1.75 0 01-1.75 1.75h-8.5A1.75 1.75 0 012 6.75v-5zm1.75-.25a.25.25 0 00-.25.25v5
