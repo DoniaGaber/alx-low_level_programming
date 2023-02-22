@@ -750,4 +750,58 @@
 
 																																																																										                  </span>
 																																																																										                </div>
-																																																																										                <div role="listbox" class="list-style-none" data-target="command-palette-item-group.list" aria-
+																																																																										                <div role="listbox" class="list-style-none" data-target="command-palette-item-group.list" aria-label="Files results"></div>
+																																																																										              </command-palette-item-group>
+																																																																										                  <command-palette-item-group data-group-id="default" data-group-title="Default" data-group-hint="" data-group-limits="{&quot;static_items_page&quot;:50}" data-default-priority="5" data-catalyst="" class="py-2 border-top" hidden="true" data-skip-template="">
+
+																																																																										                <div role="listbox" class="list-style-none" data-target="command-palette-item-group.list" aria-label="Default results"></div>
+																																																																										              </command-palette-item-group>
+																																																																										                  <command-palette-item-group data-group-id="pages" data-group-title="Pages" data-group-hint="" data-group-limits="{&quot;repository&quot;:10}" data-default-priority="6" data-catalyst="" class="py-2 border-top" hidden="true" data-skip-template="">
+
+																																																																										                <div class="d-flex flex-justify-between my-2 px-3">
+																																																																										                  <span data-target="command-palette-item-group.header" class="color-fg-muted text-bold f6 text-normal">
+																																																																										                    Pages
+																																																																										                  </span>
+																																																																										                  <span data-target="command-palette-item-group.header" class="color-fg-muted f6 text-normal">
+
+																																																																										                  </span>
+																																																																										                </div>
+																																																																										                <div role="listbox" class="list-style-none" data-target="command-palette-item-group.list" aria-label="Pages results"></div>
+																																																																										              </command-palette-item-group>
+																																																																										                  <command-palette-item-group data-group-id="access_policies" data-group-title="Access Policies" data-group-hint="" data-group-limits="{}" data-default-priority="7" data-catalyst="" class="py-2 border-top" hidden="true" data-skip-template="">
+
+																																																																										                <div class="d-flex flex-justify-between my-2 px-3">
+																																																																										                  <span data-target="command-palette-item-group.header" class="color-fg-muted text-bold f6 text-normal">
+																																																																										                    Access Policies
+																																																																										                  </span>
+																																																																										                  <span data-target="command-palette-item-group.header" class="color-fg-muted f6 text-normal">
+
+																																																																										                  </span>
+																																																																										                </div>
+																																																																										                <div role="listbox" class="list-style-none" data-target="command-palette-item-group.list" aria-label="Access Policies results"></div>
+																																																																										              </command-palette-item-group>
+																																																																										                  <command-palette-item-group data-group-id="organizations" data-group-title="Organizations" data-group-hint="" data-group-limits="{}" data-default-priority="8" data-catalyst="" class="py-2 border-top" hidden="true" data-skip-template="">
+
+																																																																										                <div class="d-flex flex-justify-between my-2 px-3">
+																																																																										                  <span data-target="command-palette-item-group.header" class="color-fg-muted text-bold f6 text-normal">
+																																																																										                    Organizations
+																																																																										                  </span>
+																																																																										                  <span data-target="command-palette-item-group.header" class="color-fg-muted f6 text-normal">
+
+																																																																										                  </span>
+																																																																										                </div>
+																																																																										                <div role="listbox" class="list-style-none" data-target="command-palette-item-group.list" aria-label="Organizations results"></div>
+																																																																										              </command-palette-item-group>
+																																																																										                  <command-palette-item-group data-group-id="repositories" data-group-title="Repositories" data-group-hint="" data-group-limits="{}" data-default-priority="9" data-catalyst="" class="py-2 border-top" hidden="true" data-skip-template="">
+
+																																																																										                <div class="d-flex flex-justify-between my-2 px-3">
+																																																																										                  <span data-target="command-palette-item-group.header" class="color-fg-muted text-bold f6 text-normal">
+																																																																										                    Repositories
+																																																																										                  </span>
+																																																																										                  <span data-target="command-palette-item-group.header" class="color-fg-muted f6 text-normal">
+
+																																																																										                  </span>
+																																																																										                </div>
+																																																																										                <div role="listbox" class="list-style-none" data-target="command-palette-item-group.list" aria-label="Repositories results"></div>
+																																																																										              </command-palette-item-group>
+																																																																										                  <command-palette-item-group data-group-id="references" data-group-title="Issues, pull requests, and discussions" data-group-hint="Type # to filter" data-group-limits="{}" data-default-priority="10" data-catalyst="" class="py-2 border-top" hidden="true" data-skip-temp
