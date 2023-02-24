@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * print_square - entry point
+ * print_triangle - entry point
  *
- * Description: Prints square
- *@size: size of square
+ * Description: Prints diagonals
+ *@size: size of the triangle
  * Return: void
  */
 
-void print_square(int size)
+void print_triangle(int size)
 {
-	int row, column;
+	int row, hashes, spaces;
 
 	if (size <= 0)
 	{
@@ -20,7 +20,11 @@ void print_square(int size)
 	{
 		for (row = 1; row <= size; row++)
 		{
-			for (column = 1; column <= size; column++)
+			for (spaces = size - row; spaces >= 1; spaces--)
+			{
+				_putchar(' ');
+			}
+			for (hashes = 1; hashes <= row; hashes++)
 			{
 				_putchar('#');
 			}
