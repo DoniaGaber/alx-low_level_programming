@@ -1,1 +1,4 @@
-0;10;1c0;10;1chldfk
+#!/bin/bash
+gcc -c *.c
+ar rc liball.a *.o
+ranlib liball.a
